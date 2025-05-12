@@ -17,9 +17,6 @@ public class WeatherService
         }
         
         return new weatherdata(temperature, humidity, condition);
-
-        return new weatherdata(temperature, humidity, condition);
-        
     }
 
     public void UpdateWeather(City city)
